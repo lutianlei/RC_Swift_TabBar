@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		31DE18A71FF6140C0013D64A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DE18A61FF6140C0013D64A /* AppDelegate.swift */; };
-		31DE18A91FF6140C0013D64A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DE18A81FF6140C0013D64A /* ViewController.swift */; };
 		31DE18AC1FF6140C0013D64A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31DE18AA1FF6140C0013D64A /* Main.storyboard */; };
 		31DE18AE1FF6140C0013D64A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31DE18AD1FF6140C0013D64A /* Assets.xcassets */; };
 		31DE18B11FF6140C0013D64A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31DE18AF1FF6140C0013D64A /* LaunchScreen.storyboard */; };
 		31DE18BC1FF6140D0013D64A /* RaySwift_TabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DE18BB1FF6140D0013D64A /* RaySwift_TabBarTests.swift */; };
 		31DE18C71FF6140D0013D64A /* RaySwift_TabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DE18C61FF6140D0013D64A /* RaySwift_TabBarUITests.swift */; };
+		31DE18D51FF614390013D64A /* RayNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DE18D41FF614390013D64A /* RayNav.swift */; };
+		31DE18D71FF614760013D64A /* RayTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DE18D61FF614760013D64A /* RayTabBar.swift */; };
+		31DE18DA1FF614F40013D64A /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DE18D91FF614F40013D64A /* HomeVC.swift */; };
+		31DE18DC1FF6150A0013D64A /* ClassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DE18DB1FF6150A0013D64A /* ClassVC.swift */; };
+		31DE18DE1FF6151C0013D64A /* BrandVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DE18DD1FF6151C0013D64A /* BrandVC.swift */; };
+		31DE18E01FF615320013D64A /* ShopingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DE18DF1FF615320013D64A /* ShopingVC.swift */; };
+		31DE18E21FF6154A0013D64A /* PersonalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DE18E11FF6154A0013D64A /* PersonalVC.swift */; };
+		31DE18E41FF61A5C0013D64A /* Public.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DE18E31FF61A5C0013D64A /* Public.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,6 @@
 /* Begin PBXFileReference section */
 		31DE18A31FF6140C0013D64A /* RaySwift_TabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaySwift_TabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31DE18A61FF6140C0013D64A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		31DE18A81FF6140C0013D64A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		31DE18AB1FF6140C0013D64A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31DE18AD1FF6140C0013D64A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31DE18B01FF6140C0013D64A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,14 @@
 		31DE18C21FF6140D0013D64A /* RaySwift_TabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaySwift_TabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31DE18C61FF6140D0013D64A /* RaySwift_TabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaySwift_TabBarUITests.swift; sourceTree = "<group>"; };
 		31DE18C81FF6140D0013D64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31DE18D41FF614390013D64A /* RayNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RayNav.swift; sourceTree = "<group>"; };
+		31DE18D61FF614760013D64A /* RayTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RayTabBar.swift; sourceTree = "<group>"; };
+		31DE18D91FF614F40013D64A /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		31DE18DB1FF6150A0013D64A /* ClassVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassVC.swift; sourceTree = "<group>"; };
+		31DE18DD1FF6151C0013D64A /* BrandVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandVC.swift; sourceTree = "<group>"; };
+		31DE18DF1FF615320013D64A /* ShopingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopingVC.swift; sourceTree = "<group>"; };
+		31DE18E11FF6154A0013D64A /* PersonalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalVC.swift; sourceTree = "<group>"; };
+		31DE18E31FF61A5C0013D64A /* Public.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Public.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +111,13 @@
 		31DE18A51FF6140C0013D64A /* RaySwift_TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				31DE18D81FF6147F0013D64A /* Custom TabBar */,
 				31DE18A61FF6140C0013D64A /* AppDelegate.swift */,
-				31DE18A81FF6140C0013D64A /* ViewController.swift */,
+				31DE18D91FF614F40013D64A /* HomeVC.swift */,
+				31DE18DB1FF6150A0013D64A /* ClassVC.swift */,
+				31DE18DD1FF6151C0013D64A /* BrandVC.swift */,
+				31DE18DF1FF615320013D64A /* ShopingVC.swift */,
+				31DE18E11FF6154A0013D64A /* PersonalVC.swift */,
 				31DE18AA1FF6140C0013D64A /* Main.storyboard */,
 				31DE18AD1FF6140C0013D64A /* Assets.xcassets */,
 				31DE18AF1FF6140C0013D64A /* LaunchScreen.storyboard */,
@@ -123,6 +142,16 @@
 				31DE18C81FF6140D0013D64A /* Info.plist */,
 			);
 			path = RaySwift_TabBarUITests;
+			sourceTree = "<group>";
+		};
+		31DE18D81FF6147F0013D64A /* Custom TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				31DE18D41FF614390013D64A /* RayNav.swift */,
+				31DE18D61FF614760013D64A /* RayTabBar.swift */,
+				31DE18E31FF61A5C0013D64A /* Public.swift */,
+			);
+			path = "Custom TabBar";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +288,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31DE18A91FF6140C0013D64A /* ViewController.swift in Sources */,
+				31DE18DC1FF6150A0013D64A /* ClassVC.swift in Sources */,
+				31DE18E41FF61A5C0013D64A /* Public.swift in Sources */,
+				31DE18DA1FF614F40013D64A /* HomeVC.swift in Sources */,
+				31DE18E21FF6154A0013D64A /* PersonalVC.swift in Sources */,
+				31DE18E01FF615320013D64A /* ShopingVC.swift in Sources */,
+				31DE18DE1FF6151C0013D64A /* BrandVC.swift in Sources */,
 				31DE18A71FF6140C0013D64A /* AppDelegate.swift in Sources */,
+				31DE18D71FF614760013D64A /* RayTabBar.swift in Sources */,
+				31DE18D51FF614390013D64A /* RayNav.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
